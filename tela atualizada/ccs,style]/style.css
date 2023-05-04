@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color:#1E90FF;
+}
+/*configuração do quadrado branco*/
+#container{
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 410px;
+    height: 50vh;
+    margin-left:75vh;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 30vh;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin-top: -0vh;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:-1vh;
+}
+
+label,input{
+    display: block;
+    width: 95%;
+    text-align: left;
+}
+
+label{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+
+}
+
+input{
+    border:none;
+    padding: 10px;
+    font-size: small;
+    border-bottom: 2px solid #3d43fd;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+textarea:focus,input:focus{
+    outline: none;
+}
+
+button{
+background-color: #008CBA;
+  width: 20vh;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: 0.5s;
+  
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+     transition: 1.5s;
+}
+button  a:hover{
+    color: white;
+    transition: 1s;
+    transition-duration: 1s;
+
+}
+
